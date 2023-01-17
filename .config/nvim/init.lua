@@ -5,7 +5,9 @@
 ----------------------------------------
 --	    options
 ----------------------------------------
-
+vim.opt.backspace   = "indent,eol,start"
+vim.opt.syntax      = "on"
+vim.opt.completeopt = "menu,menuone,noinsert,preview,noselect,noinsert"
 vim.opt.number 		= true
 vim.opt.tabstop 	= 4
 vim.opt.shiftwidth 	= 4
@@ -13,9 +15,10 @@ vim.opt.softtabstop = 0
 vim.opt.expandtab 	= true
 vim.opt.swapfile 	= false
 vim.opt.syntax 		= 'on'
+vim.opt.tabpagemax = 50
+vim.opt.termguicolors = true;
 vim.o.omnifunc = 'v:lua.vim.lsp.omnifunc'
 vim.o.showtabline = 2
-vim.opt.tabpagemax = 50
 
 -- Example config in lua
 -- Load the colorscheme
@@ -76,6 +79,7 @@ require('packer').startup(function(use)
     use 'echasnovski/mini.pairs'
     use 'ap/vim-css-color'
     use 'shaunsingh/nord.nvim'
+    use 'mg979/vim-visual-multi'
 end)
 
 --plugins settings LSP and tree-sitter
