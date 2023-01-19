@@ -1,0 +1,4 @@
+sudo ln -s /var/lib/flatpak/exports/bin/com.spotify.Client /usr/local/bin/spotify
+sudo ln -s /var/lib/flatpak/exports/bin/com.discordapp.Discord /usr/local/bin/discord
+sudo ln -s /var/lib/flatpak/exports/bin/org.onlyoffice.desktopeditors /usr/local/bin/onlyoffice
+sudo ln -s /var/lib/flatpak/exports/bin/org.telegram.desktop /usr/local/bin/telegram
