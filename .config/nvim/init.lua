@@ -80,6 +80,7 @@ require('packer').startup(function(use)
     use 'ap/vim-css-color'
     use 'shaunsingh/nord.nvim'
     use 'mg979/vim-visual-multi'
+    use 'TimUntersberger/neogit'
 end)
 
 --plugins settings LSP and tree-sitter

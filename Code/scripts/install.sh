@@ -1,4 +1,4 @@
-sudo xbps-install xorg libXinerama-devel libX11-devel libXft-devel hsetroot xsetroot xclip neovim base-devel git curl vulkan-loader mesa-vulkan-radeon amdvlk mesa-vaapi mesa-vdpau flatpak qutebroser g810-led xtools python3-adblock blender SDL2-devel SDL2_gfx-devel SDL2_image-devel SDL2_mixer-devel SDL2_net-devel SDL2_ttf-devel nodejs clang clang-tools-extra clang-analyzer tree-sitter lua-language-server ccls
+sudo xbps-install xorg libXinerama-devel libX11-devel libXft-devel hsetroot xsetroot xclip neovim base-devel git curl vulkan-loader mesa-vulkan-radeon amdvlk mesa-vaapi mesa-vdpau flatpak qutebroser g810-led xtools python3-adblock blender SDL2-devel SDL2_gfx-devel SDL2_image-devel SDL2_mixer-devel SDL2_net-devel SDL2_ttf-devel nodejs clang clang-tools-extra clang-analyzer tree-sitter lua-language-server ccls valgrind cunit gtop doxygen gprof
 
 
 #add flathub remote
